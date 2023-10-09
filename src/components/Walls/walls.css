@@ -57,7 +57,7 @@ right:100px;
 .hero-section div:first-child div:last-child p{
     color: rgba(255, 255, 255, 0.70);
 font-feature-settings: 'calt' off;
-font-family: Poppins;
+/* font-family: Poppins; */
 font-size: 32px;
 font-style: normal;
 font-weight: 400;

@@ -18,7 +18,9 @@ const Navbar = () => {
   return (
     <div className={color ? "navbar navbar-bg" : "navbar" }>
         
-        <h2 className="header"> Parthiv Borda </h2>
+        <a style={{textDecoration:"none"}}href="/">
+           <h2 className="header"> Parthiv Borda </h2>
+        </a>
         <div>
            <Link to="project" smooth={true} duration={500} className="project-link">
               Project

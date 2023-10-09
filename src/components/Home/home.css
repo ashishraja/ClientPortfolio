@@ -1,0 +1,195 @@
+@font-face {
+    font-family: "akira-expanded";
+    src: url("../Fonts/AkiraExpanded-SuperBold/Akira_Expanded_Demo.woff");
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@300;500;600&display=swap');
+body{
+    margin:0;
+    background-color: black;
+    padding:0;
+    width:100%;
+}
+.home{
+    height:100vh;
+    width:100%;
+    background: url("home.png"), black 50% / cover no-repeat;
+    background-blend-mode: hard-light;
+    padding-top:70px;
+}
+.section{
+    width:100%;
+    background-color: black;
+}
+.part2{
+    height:1050px;
+    width:100%;
+    flex-shrink:0;
+    background: url("../Assets/Rectangle4.png"), lightgray 50% / cover no-repeat;
+    backdrop-filter: blur(150px);
+}
+.part4{
+    height:1050px;
+    width:100%;
+    flex-shrink:0;
+    background: url("../Assets/Rectangle5.png"), lightgray 50% / cover no-repeat;
+    backdrop-filter: blur(150px);
+}
+.part6{
+    height:1050px;
+    width:100%;
+    flex-shrink:0;
+    background: url("../Assets/Rectangle6.png"), lightgray 50% / cover no-repeat;
+    backdrop-filter: blur(150px);
+}
+.home .main h1{
+    color: var(--white, #FFF);
+    text-align: center;
+    font-feature-settings: 'calt' off;
+    font-family: akira-expanded , sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 99.039%; /* 49.52px */
+    letter-spacing: 2.5px;
+    padding-top:200px;
+}
+.part3{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom:250px;
+    padding-top:40px;
+}
+.part3 h1{
+    color: #FFF;
+    font-feature-settings: 'calt' off;
+    font-family: Akira Expanded;
+    font-size: 66px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: -0.66px;
+    padding-left:100px;
+}
+.main h1 span{
+    display:block;
+}
+.part3 p{
+    color: rgba(255, 255, 255, 0.70);
+    font-feature-settings: 'calt' off;
+    font-family: Poppins;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 34.5px */
+    letter-spacing: -0.115px;
+    width: 598px;
+    margin-top:-60px;
+    padding:0px 0px 0px 100px;
+}
+.part3 div:last-child img{
+    margin-top:70px;
+    padding-right:100px;
+}
+.part8 h1{
+    color: rgba(255, 255, 255, 0.80);
+    font-feature-settings: 'calt' off;
+    font-family:akira-expanded,sans-serif ;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: -0.23px;
+}
+.part7{
+    padding-bottom:90px;
+}
+.part8{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    padding-left:100px;
+}
+.part8 div{
+    display: flex;
+    padding:5px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 7px;
+    background: #464646;
+    margin-top:-5px;
+}
+.part8 div a{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.19px;
+    text-decoration-line: underline;
+}
+.part9{
+    display: flex;
+    padding-left:45%;
+    padding-top:92px;
+}
+.part9 h1{
+    color: rgba(255, 255, 255, 0.70);
+    text-align: center;
+    font-feature-settings: 'calt' off;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 30px */
+    letter-spacing: -0.2px;
+}
+.part9 a{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    text-decoration: none;
+    font-feature-settings: 'calt' off;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+    letter-spacing: -0.2px;
+    padding-top:18px;
+    padding-left:35%;
+}
+
+
+@media screen and (max-width:1080px){
+    .home , .part1 , .part2 , .part3 , .part4 , .part5 , .part6 , .part7 , .part8{
+        width:140%;
+    }
+    .home .main{
+        padding-top:550px;
+    }
+    .part3 div:first-child h1{
+        font-family: akira-expanded , sans-serif;
+    }
+    .part8{
+        margin-left:-420px;
+    }
+    .part9{
+        position: relative;
+        left:40%;
+    }
+    .part9 h3{
+        width:100%;
+        font-size:28px;
+        margin-left:-300px;
+    }
+    .part9 a{
+        width:150%;
+        font-size: 28px;
+        padding-top:35px;
+        margin-left:-100px;
+    }
+}
