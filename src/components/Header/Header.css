@@ -50,3 +50,8 @@
     line-height: 150%; 
     letter-spacing: -0.32px;
 }
+@media screen and (max-width:1080px) {
+  .project-link , .about-link{
+    font-size:25px;
+  }
+}

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Header from '../Header/Header';
 import "./home.css";
 import img from "../Assets/image01.png"
@@ -8,10 +8,7 @@ import {Element} from "react-scroll"
 import { Link } from 'react-router-dom';
 
 const Home = () => {
-    // const [link , setLink] = useState();
-    // const navigateHandler = () => {
-        
-    // }
+    
 
   return (
     <section className="section">
