@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap');
 
-.about-link , .project-link{
+/* .about-link , .project-link{
     color: var(--white, #FFF);
     font-feature-settings: 'calt' off;
     font-family: Poppins;
@@ -49,9 +49,70 @@
     font-weight: 600;
     line-height: 150%; 
     letter-spacing: -0.32px;
+} */
+.header{
+    color: var(--white, #FFF);
+    font-feature-settings: 'calt' off;
+    font-family: "Poppins",sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; 
+    letter-spacing: -0.32px;
 }
-@media screen and (max-width:1080px) {
-  .project-link , .about-link{
-    font-size:25px;
+.project-link{
+  margin-right:14px;
+  margin-top:24px;
+}
+.about-link , .project-link{
+  color: var(--white, #FFF);
+  font-feature-settings: 'calt' off;
+  font-family: Poppins;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; 
+  letter-spacing: -0.21px;
+  width:63px;
+  text-decoration: none;
+  cursor: pointer;
+  height:32px;
+}
+.navbar{
+    display: flex;
+    padding: 0px 12px;
+    width:81%;
+    position : fixed;
+    z-index:10; 
+    height:40px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 23px;
+    border: 1.5px solid rgba(255, 255, 255, 0.43);
+    background: rgba(105, 105, 105, 0.49);
+    box-shadow: 0px 13px 29px 0px rgba(0, 0, 0, 0.13);
+    backdrop-filter: blur(14.5px);
+    margin:0px 0px 0px 25px;
+}
+
+@media screen and (min-width:1080px){
+  .navbar{
+    display: flex;
+    width:80%;
+    padding:20px 32px;
+    margin:0px 20px 0px 106px;
+    height:50px;
+  }
+  .header{
+    font-size:32px;
+    letter-spacing: -0.32px;
+  }
+  .about-link , .project-link{
+    font-size:23px;
+    height:32px;
+  }
+  .project-link{
+    margin-right:54px;
+    margin-top:24px;
   }
 }

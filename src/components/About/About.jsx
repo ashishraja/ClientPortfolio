@@ -13,7 +13,7 @@ const About = () => {
         <div className="about-header">
             <Header />
         </div>
-        <div className="main">
+        <div className="main1">
             <div className='content-and-img'>
                 <img src={img} alt="parthiv-img" />
             </div>
@@ -31,14 +31,18 @@ Don't hesitate to shoot me an email at <span>uxdesigner.parthiv@gmail.com</span>
             <div className="bar">
 
             </div>
-            <h1>Let's Talk</h1>
+            <h1>
+                <span>Let's</span>
+                <span>Talk</span>
+            </h1>
             <div className="bar1">
 
             </div>
         </div>
 
-        <div className="about-part2">
-            <a href="https://dribbble.com/parthiv_borda">
+         <div className="about-part2">
+           
+           <a href="https://dribbble.com/parthiv_borda">
                <img className='dribble-img' src={img1} alt="dribble-img" />
                <p>DRIBBLE</p>
             </a>
@@ -58,8 +62,7 @@ Don't hesitate to shoot me an email at <span>uxdesigner.parthiv@gmail.com</span>
                <img src={img5} alt="mail-img" />
                <p style={{marginLeft:"100px"}}>MAIL</p>
             </a>
-            
-        </div>
+        </div> 
 
         <div className='about-part3'>
         

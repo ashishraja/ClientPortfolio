@@ -2,42 +2,36 @@ import React , {useEffect} from 'react'
 import img2 from "../Assets/image01.png"
 import "./picasso.css"
 import img3 from "../Assets/pain-points.svg"
-import solution1 from "../Assets/solution1.svg"
-import solution2 from "../Assets/solution2.svg"
-import solution3 from "../Assets/solution3.svg"
-import solution4 from "../Assets/solution4.svg"
+import rectangleImg from "../Assets/Rectangle4.png"
+import solutions from "../Assets/solutions.svg"
 import processImg from "../Assets/process-frame.svg"
 import userImg from "../Assets/userflow-frame.svg"
 import designImg from "../Assets/designsystem-frame.svg"
-import productImg from "../Assets/product-frame.svg"
+import productImg from "../Assets/product-frame (1).png"
 
 const Picasso = () => {
 
     useEffect(() => {
-        window.scrollTo(0, 0); // Scroll to the top of the page when component mounts
+        window.scrollTo(0, 0); 
       }, []);
 
   return (
-    <section className='picasso-page'>
+    <section className="picasso-page">
         <div className="hero-section">
             <div>
-                    <div className='heading'>
-                        <div>
-                           <h1 className='picasso-heading'>Picasso</h1>
-                        </div>
-                        <div className='img'>
-                            <img src={img2} alt="image01" />
-                        </div>
-                        
-                    </div>
+                <div className="part3 part5">
                     <div>
-                        <p className='picasso-content'> A project aimed at generating editable images using 
-                        AI technology where User’s can create(prompt) 
-                        images and has customizable options to edit the images.
-                        </p>
+                        <h1>Picasso</h1>
+                        <p> A project aimed at generating editable images using AI technology where User’s can create(prompt) images and has customizable options to edit the images.</p>
                     </div>
+                    <div className='img'>
+                        <img src={img2} alt="image03" />
+                    </div>
+                </div>
             </div> 
-            <div className='div2'></div>
+            <div className='div2'>
+                <img src={rectangleImg} alt="6.png" />
+            </div>
         </div> 
         <div className="userpt-frame">
                 <div className="heading">
@@ -47,8 +41,8 @@ const Picasso = () => {
                         </div>
                         <div>
                             <p>
-                            After understanding the problem statement, I started searching for
-                            User Pain points. Did some couple of User Interviews and found
+                            After understanding the problem statement, I started searching
+                            for User Pain points.Did some couple of User Interviews and found
                             out what are distinguish yet common pain points.
                             </p>
                         </div>
@@ -66,30 +60,30 @@ const Picasso = () => {
                     Then, I started ideating on solutions for each individual problem.
                 </p>
             </div>
-            <div  style={{margin:"0 0 150px 40px"}}>
-              <img src={solution1} alt="solution-part1" />
-            </div>
-            <div  style={{margin:"0 0 150px 40px"}}>
-              <img src={solution2} alt="solution-part1" />
-            </div>
-            <div  style={{margin:"0 0 150px 40px"}}>
-              <img src={solution3} alt="solution-part1" />
-            </div>
-            <div  style={{margin:"0 0 150px 40px"}}>
-              <img src={solution4} alt="solution-part1" />
+            <div>
+                <img src={solutions} alt="wall-sol" />
             </div>
         </div>
-        <div className='process-frame' style={{padding:"100px 40px"}}>
-            <img src={processImg} alt="process-img" />
-        </div>
-        <div className='user-frame' style={{padding:"200px 90px"}}>
-            <img src={userImg} alt="user-img" />
-        </div>
-        <div className='design-frame' style={{padding:"150px 0px 100px 0px"}}>
-            <img style={{width:"100%"}} src={designImg} alt="design-img" />
-        </div>
-        <div className='design-frame' style={{padding:"100px 0 0 0px"}}>
-            <img style={{width:"100%"}} src={productImg} alt="design-img" />
+    
+
+        <div className="svgs">    
+            <div>
+                <div>
+                    <img src={processImg} alt="process-img" />
+                </div>
+                <div>
+                    <img className="userflow" src={userImg} alt="user-img" />
+                </div>
+            </div>
+        
+            <div>
+                <div>
+                    <img src={designImg} alt="design-img" />
+                </div>
+                <div>
+                    <img src={productImg} alt="product-img" />
+                </div>
+            </div>
         </div>
     </section>
   )

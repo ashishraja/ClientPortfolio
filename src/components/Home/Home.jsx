@@ -2,6 +2,9 @@ import React from 'react'
 import Header from '../Header/Header';
 import "./home.css";
 import img from "../Assets/image01.png"
+import rectangleImg from "../Assets/Rectangle4.png"
+import rectangleImg1 from "../Assets/Rectangle5.png"
+import rectangleImg2 from "../Assets/Rectangle6.png"
 import img1 from "../Assets/02..png"
 import img2 from "../Assets/03..png"
 import {Element} from "react-scroll"
@@ -26,7 +29,9 @@ const Home = () => {
         </div>
     
         <Link to="./picasso" style={{cursor:"pointer"}}>
-            <div className="part2"></div>
+            <div className="part2">
+                <img src={rectangleImg} alt="" />
+            </div>
         </Link>
         
         <Element name="project" className="part3">
@@ -42,7 +47,9 @@ const Home = () => {
         </Element>
     
         <Link to="./walls" style={{cursor:"pointer"}}>
-            <div className="part4"></div>
+            <div className="part4">
+                <img src={rectangleImg1} alt="" />
+            </div>
         </Link>
     
         <div className="part3 part5">
@@ -58,7 +65,9 @@ const Home = () => {
         </div>
 
         <Link style={{cursor:"pointer"}} to="./flickfuse" >
-            <div className="part6"></div>
+            <div className="part6">
+                <img src={rectangleImg2} alt="" />
+            </div>
         </Link>
 
     
@@ -86,7 +95,7 @@ const Home = () => {
         <div className='part9'>
             <h3>Have a great day!</h3>
             <a href="https://portfolio-chi-lyart-11.vercel.app/" >
-                Site created by Ashish Santani
+                Site Developed by Ashish Santani
             </a>
         </div>
     </section>

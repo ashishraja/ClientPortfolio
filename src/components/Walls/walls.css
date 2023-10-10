@@ -1,166 +1,165 @@
 .walls-page{
-    height:2698.5vh;
+    height:779vh;
     width:100%;
     background-color: black;
-    padding-top:245px;
+    padding-top:50px;
 }
-.hero-section{
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 64px;
-    width:100%;
-    height:1500px;
+.userpt-frame .userframe-img img{
+    background-size: cover;
+    max-width:100%;
+    padding-left:0;
+    margin-left:0;
 }
-.walls-page .div2{
-    height: 1050px;
-    width: 100%;
-    background: url("../Assets/Rectangle5.png"), lightgray 50% / contain no-repeat;
-    backdrop-filter: blur(150px);
-} 
-
-.hero-section div:first-child{
+.solution-part{
     display: flex;
-    width: 1240px;
     flex-direction: column;
-    align-items: flex-start;
-    gap: 16px;
-}
-.hero-section div:first-child .heading{
-    display: flex;
-    width: 1240px;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 69px;
+    background: #1E1E1E;
+    padding:0 30px;
+    padding-top:50px;
 }
-.hero-section div:first-child .heading h1{
+.walls-page .hero-section .part5{
+    padding-bottom:10px;
+}
+.div2 img{
+    background-size: cover;
+    max-width:100%;
+}
+.solution-part div:first-child h1{
     color: var(--white, #FFF);
-    font-feature-settings: 'calt' off;
-    font-family: Akira-expanded ,sans-serif;
-    font-size: 50px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-    letter-spacing: 4.8px;
-}
-.hero-section div:first-child .heading img{
 font-feature-settings: 'calt' off;
-font-family: Akira-expanded,sans-serif;
-height:60px;
+font-family: akira-expanded , sans-serif;
+font-size: 15px;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
-letter-spacing: 9.6px;
-position:absolute;
-top:345px;
-right:100px;
+letter-spacing: 2.5px;
 }
-.hero-section div:first-child div:last-child p{
-    color: rgba(255, 255, 255, 0.70);
-font-feature-settings: 'calt' off;
-/* font-family: Poppins; */
-font-size: 32px;
-font-style: normal;
-font-weight: 400;
-line-height: 160%; 
-letter-spacing: 0.32px;
-width: 919px;
-margin-top:16px;
-}
-
-.userpt-frame{
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 64px;
-    padding-left:90px;
-}
-.userpt-frame .heading{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 23px;
-}
-.userpt-frame .heading div:first-child h1{
-    color: var(--white, #FFF);
-    font-feature-settings: 'calt' off;
-    font-family: Akira-expanded,sans-serif;
-    font-size: 50px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-    letter-spacing: 2.5px;
-}
-.userpt-frame .heading div:first-child div:last-child p{
+.solution-part div:first-child p{
     color: rgba(255, 255, 255, 0.70);
 font-feature-settings: 'calt' off;
 font-family: Poppins;
-font-size: 32px;
-margin-top:75px;
+font-size: 9px;
+max-width:100%;
 font-style: normal;
 font-weight: 400;
-line-height: 160%; 
+line-height: 160%; /* 51.2px */
 letter-spacing: 0.32px;
-width:1234px;
+margin-top:-7px;
 }
-.userframe-img{
-    width:100%;
-    padding-left:100px;
+.solution-part img{
+    background-size: cover;
+    max-width:100%;
 }
-.walls-page .solution-part{
-    width: 100%;
-    height: 6200px;
-    background: #1E1E1E;
+.svgs div img{
+    background-size: cover;
+    max-width:100%;
 }
-.solution-part div{
+.svgs div:first-child div{
+    padding:100px 20px 0px 20px;
+}
+.svgs div:last-child div{
+    padding-top:100px;
+}
+.new-image img{ 
+    background-size: cover;
+    max-width:100%;
+    padding-left:0;
+}
+.walls-page .userpt-frame .heading {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 23px;
-    padding-left:90px;
-    padding-top:96px;
 }
-.solution-part div h1{
+.walls-page .userpt-frame .heading div:first-child div:first-child h1{
     color: var(--white, #FFF);
     font-feature-settings: 'calt' off;
-    font-family: Akira-expanded , sans-serif;
-    font-size: 50px;
+    font-family: akira-expanded , sans-serif;
+    font-size: 15px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-    letter-spacing: 2.5px;
+    letter-spacing: 1.5px;
 }
-.solution-part div p{
+.walls-page .userpt-frame .heading div:first-child div:last-child p{
     color: rgba(255, 255, 255, 0.70);
-    font-feature-settings: 'calt' off;
-    font-family: Poppins;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 160%; /* 51.2px */
-    letter-spacing: 0.32px;
-    width:85%;
-    margin-top:-40px;
+font-feature-settings: 'calt' off;
+font-family: Poppins;
+font-size: 9px;
+max-width:100%;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 51.2px */
+letter-spacing: 0.32px;
+margin-top:-7px;
+}
+.pain-points{
+    background-size: cover;
+    max-width:100%;
+}
+.walls-page .userpt-frame{
+    padding:30px 30px;
+}
+.walls-page .solution-part div:last-child{
+    padding-left:10px;
+}
+.walls-page .svgs div:first-child .userflow{
+    padding-left:20px;
+}
+.walls-page .svgs div:first-child {
+    padding-right:20px;
 }
 
-@media screen and (max-width:1080px){
+@media screen and (min-width:1080px){
     .walls-page{
-        width:145%;
+        height:2600vh;
+        padding-top:200px;
     }
-    .userframe-img{
-        margin-bottom:0px;
+    .walls-page .hero-section .part3{
+        padding-bottom:100px;
     }
-    .walls-page .hero-section div:first-child .heading img{
-        position: relative;
-        top:-160px;
-        left:520px;
+    .walls-page .userpt-frame .heading div:first-child div:first-child h1{
+        font-size:50px;
     }
-    .hero-section{
-        height:1600px;
+    .walls-page .userpt-frame .heading div:first-child div:last-child p{
+        font-size:32px;
+        margin-top:-30px;
+        width:100%;
     }
-    .walls-page{
-        height:1090vh;
+    .walls-page .userpt-frame .heading{
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 64px;
+        padding-top:50px;
     }
-    .hero-section div:first-child div:last-child{
-        margin-top:-110px;
+    .walls-page .userpt-frame .heading div{
+        padding-left:40px;
+        padding-right:30px;
+    }
+    .solution-part{
+        gap: 99px;
+        padding:50px 100px 0 100px;
+    }
+    .walls-page .solution-part div:last-child{
+        padding-left:50px;
+    }
+    .solution-part div:first-child h1{
+        font-size:50px;
+    }
+    .solution-part div:first-child p{
+        font-size:32px;
+    }
+    .svgs div:first-child div{
+        padding :100px 60px 100px 50px;
+    }
+    .walls-page .svgs div:first-child .userflow{
+        padding :100px 60px 100px 50px;
+    }
+    .walls-page .svgs div:last-child div:last-child{
+        padding-top:200px;
     }
 }

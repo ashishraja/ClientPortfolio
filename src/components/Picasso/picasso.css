@@ -1,164 +1,180 @@
 .picasso-page{
-    height:2973vh;
+    height:779vh;
     width:100%;
     background-color: black;
-    padding-top:245px;
+    padding-top:50px;
 }
-.hero-section{
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 64px;
-    width:100%;
-    height:1500px;
-}
-.picasso-page .div2{
-    height: 1050px;
-    width: 100%;
-    background: url("../Assets/Rectangle4.png"), lightgray 50% / contain no-repeat;
-    backdrop-filter: blur(150px);
-} 
-
-.hero-section div:first-child{
-    display: flex;
-    width: 1240px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 16px;
-}
-.hero-section div:first-child .heading{
-    display: flex;
-    width: 1240px;
-    justify-content: space-between;
-    align-items: center;
-}
-.hero-section div:first-child .heading .picasso-heading{
-    color: var(--white, #FFF);
-    font-feature-settings: 'calt' off;
-    font-family: Akira-expanded ,sans-serif;
-    font-size: 96px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-    letter-spacing: 4.8px;
-}
-.hero-section div:first-child .heading img{
-font-feature-settings: 'calt' off;
-font-family: Akira-expanded,sans-serif;
-height:60px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-letter-spacing: 9.6px;
-position:absolute;
-top:345px;
-right:100px;
-}
-.hero-section div:first-child div:last-child p{
-    color: rgba(255, 255, 255, 0.70);
-font-feature-settings: 'calt' off;
-font-family: Poppins;
-font-size: 32px;
-font-style: normal;
-font-weight: 400;
-line-height: 160%; 
-letter-spacing: 0.32px;
-width: 919px;
-margin-top:16px;
-}
-
-.userpt-frame{
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 64px;
-    padding-left:90px;
-}
-.userpt-frame .heading{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 23px;
-}
-.userpt-frame .heading div:first-child h1{
-    color: var(--white, #FFF);
-    font-feature-settings: 'calt' off;
-    font-family: Akira-expanded,sans-serif;
-    font-size: 50px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-    letter-spacing: 2.5px;
-}
-.userpt-frame .heading div:first-child div:last-child p{
-    color: rgba(255, 255, 255, 0.70);
-font-feature-settings: 'calt' off;
-font-family: Poppins;
-font-size: 32px;
-margin-top:60px;
-font-style: normal;
-font-weight: 400;
-line-height: 160%; 
-letter-spacing: 0.32px;
-width:1234px;
-
-}
-.userframe-img{
-    width:100%;
-    padding-left:100px;
+.userpt-frame .userframe-img img{
+    background-size: cover;
+    max-width:100%;
+    padding-left:0;
+    margin-left:0;
 }
 .solution-part{
-    width: 100%;
-    height: 6100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 69px;
     background: #1E1E1E;
+    padding:0 30px;
+    padding-top:50px;
 }
-.solution-part div{
+.picasso-page .hero-section .part5{
+    padding-bottom:10px;
+}
+.div2 img{
+    background-size: cover;
+    max-width:100%;
+}
+.solution-part div:first-child h1{
+    color: var(--white, #FFF);
+    font-feature-settings: 'calt' off;
+    font-family: akira-expanded , sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.solution-part div:first-child p{
+    color: rgba(255, 255, 255, 0.70);
+font-feature-settings: 'calt' off;
+font-family: Poppins;
+font-size: 9px;
+max-width:100%;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 51.2px */
+letter-spacing: 0.32px;
+margin-top:-7px;
+}
+.solution-part img{
+    background-size: cover;
+    max-width:100%;
+}
+.svgs div img{
+    background-size: cover;
+    max-width:100%;
+}
+.svgs div:first-child div{
+    padding:100px 20px 0px 20px;
+}
+.svgs div:last-child div{
+    padding-top:100px;
+}
+.new-image img{ 
+    background-size: cover;
+    max-width:100%;
+    padding-left:0;
+}
+.picasso-page .userpt-frame .heading {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 23px;
-    padding-left:90px;
-    padding-top:96px;
 }
-.solution-part div h1{
+.picasso-page .userpt-frame .heading div:first-child div:first-child h1{
     color: var(--white, #FFF);
     font-feature-settings: 'calt' off;
-    font-family: Akira-expanded , sans-serif;
-    font-size: 50px;
+    font-family: akira-expanded , sans-serif;
+    font-size: 15px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-    letter-spacing: 2.5px;
+    letter-spacing: .5px;
 }
-.solution-part div p{
+.picasso-page .userpt-frame .heading div:first-child div:last-child p{
     color: rgba(255, 255, 255, 0.70);
-    font-feature-settings: 'calt' off;
-    font-family: Poppins;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 160%; /* 51.2px */
-    letter-spacing: 0.32px;
-    width:85%;
-    margin-top:-40px;
+font-feature-settings: 'calt' off;
+font-family: Poppins;
+font-size: 9px;
+max-width:100%;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 51.2px */
+letter-spacing: 0.32px;
+margin-top:-7px;
+}
+.pain-points{
+    background-size: cover;
+    max-width:100%;
+}
+.picasso-page .userpt-frame{
+    padding:30px 30px;
+}
+.picasso-page .part5 p{
+    width:100%;
+    font-size:9px;
+}
+.picasso-page .part5 h1{
+    letter-spacing:.66px;
+}
+.picasso-page .part5 div:last-child img{
+    margin-right:20px;
+}
+.picasso-page .solution-part div:last-child{
+    padding-left:10px;
+}
+.picasso-page .svgs div:first-child {
+    padding:50px 10px;
 }
 
-@media screen and (max-width:1080px){
+@media screen and (min-width:1080px){
     .picasso-page{
-        width:145%;
+        height:2600vh;
+        padding-top:200px;
     }
-    .userframe-img{
-        margin-bottom:0px;
+    .picasso-page .hero-section .part5{
+        padding-bottom:100px;
     }
-    .picasso-page  .hero-section div:first-child .heading img{
-        position: relative;
-        top:-160px;
-        left:520px;
+    .picasso-page .hero-section div p{
+        font-size: 30px;
+        width:70%;
     }
-    .hero-section{
-        height:1600px;
+    .picasso-page .solution-part div:last-child{
+        padding-left:50px;
     }
-    .picasso-page{
-        height:1200vh;
+    .picasso-page .userpt-frame .heading div:first-child div:first-child h1{
+        font-size:50px;
+    }
+    .picasso-page .userpt-frame .heading div:first-child div:last-child p{
+        font-size:32px;
+        margin-top:-30px;
+        width:100%;
+    }
+    .picasso-page .userpt-frame .heading{
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 64px;
+        padding-top:50px;
+    }
+    .picasso-page .userpt-frame .heading div{
+        padding-left:40px;
+        padding-right:30px;
+    }
+    .solution-part{
+        gap: 99px;
+        padding:50px 100px 0 100px;
+    }
+    .solution-part div:first-child h1{
+        font-size:50px;
+    }
+    .solution-part div:first-child p{
+        font-size:32px;
+    }
+    .picasso-page .svgs div:first-child div{
+        padding :100px 50px 100px 50px;
+    }
+    .picasso-page .svgs div:first-child .userflow{
+        padding :100px 50px 100px 50px;
+    }
+    .picasso-page .svgs div:last-child div{
+        padding-top:150px;
+    }
+    .picasso-page .part3 .img img{
+        position: absolute;
+        left:78%;
+        
     }
 }
