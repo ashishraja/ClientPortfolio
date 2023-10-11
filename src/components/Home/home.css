@@ -8,7 +8,6 @@
 body {
     background-color:black;
     margin: 0;
-    /* background-color: black; */
     padding: 0;
     width:100%;
 }
@@ -17,7 +16,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
 }
 
 .section {
@@ -36,7 +34,6 @@ body {
     align-items: center;
     justify-content: center;
     padding: 46vw 0px;
-    /* padding-left: 28px; */
 }
 
 .home .main h1 {
@@ -62,8 +59,6 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0 8vw 16vw 8vw;
-    /* justify-content: center; */
-    /* padding: 30px 0px 100px 28px; */
 }
 
 .part3 h1 {
@@ -85,7 +80,6 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: 150%;
-    /* 34.5px */
     letter-spacing: -0.115px;
     width: 59.34vw;
     margin-top: -4.6vw;
@@ -169,7 +163,6 @@ body {
     font-style: italic;
     font-weight: 400;
     line-height: 150%;
-    /* 30px */
     letter-spacing: -0.2px;
     padding-top: 2.3vw;
     padding-left: 35%;
@@ -240,8 +233,6 @@ body {
         height: 55px;
         width: 10vw;
         padding-right:80px;
-        /* position: relative;
-        left: 405px; */
     }
 
     .part7 {
@@ -269,7 +260,7 @@ body {
 
     .part9 {
         display: flex;
-        padding-left: 40%;
+        padding-left: 32.5%;
         padding-top: 92px;
     }
 

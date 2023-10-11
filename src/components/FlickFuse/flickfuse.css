@@ -1,5 +1,4 @@
 .flickfuse-page{
-    /* height:948vh; */
     width:100%;
     background-color: black;
     padding-top:50px;
@@ -83,16 +82,7 @@ margin-top:1.61vw;
     letter-spacing: 1.5px;
 }
 .flickfuse-page .userpt-frame .heading div:first-child div:last-child p{
-    /* color: rgba(255, 255, 255, 0.70);
-font-feature-settings: 'calt' off;
-font-family: Poppins;
-font-size: 2.07vw;
-max-width:100vw;
-font-style: normal;
-font-weight: 400;
-line-height: 160%;
-letter-spacing: .30px;
-*/
+    
 color: rgba(255, 255, 255, 0.70);
 margin-top:-1.61vw; 
 font-feature-settings: 'calt' off;
@@ -116,7 +106,6 @@ letter-spacing: 0.32px;
 
 @media screen and (min-width:1080px){
     .flickfuse-page{
-        /* height:3000vh; */
         padding-top:200px;
     }
     .flickfuse-page .hero-section .part3{
@@ -138,7 +127,6 @@ letter-spacing: 0.32px;
         padding-top:50px;
     }
     .flickfuse-page .userpt-frame .heading div{
-        padding-left:40px;
         padding-right:30px;
     }
     .solution-part{

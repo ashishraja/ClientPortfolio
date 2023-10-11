@@ -1,6 +1,5 @@
 .walls-page{
     width:100%;
-    /* height:779vh; */
     background-color: black;
     padding-top:50px;
 }
@@ -115,7 +114,6 @@ margin-top:-7px;
 
 @media screen and (min-width:1080px){
     .walls-page{
-        /* height:2600vh; */
         padding-top:200px;
     }
     .walls-page .hero-section .part3{
