@@ -54,37 +54,37 @@
     color: var(--white, #FFF);
     font-feature-settings: 'calt' off;
     font-family: "Poppins",sans-serif;
-    font-size: 12px;
+    font-size: 2.76vw;
     font-style: normal;
     font-weight: 600;
     line-height: 150%; 
     letter-spacing: -0.32px;
 }
 .project-link{
-  margin-right:14px;
+  margin-right:3.2vw;
   margin-top:24px;
 }
 .about-link , .project-link{
   color: var(--white, #FFF);
   font-feature-settings: 'calt' off;
   font-family: Poppins;
-  font-size: 11px;
+  font-size: 2.53vw;
   font-style: normal;
   font-weight: 400;
   line-height: 150%; 
   letter-spacing: -0.21px;
-  width:63px;
+  width:14.5vw;
   text-decoration: none;
   cursor: pointer;
-  height:32px;
+  height:7.36vw;
 }
 .navbar{
-    display: flex;
-    padding: 0px 12px;
-    width:81%;
+    display: flex;  
+    padding: 0vmax 1vmax;
+    width:80vw;
     position : fixed;
     z-index:10; 
-    height:40px;
+    height:9.2vw;
     justify-content: space-between;
     align-items: center;
     border-radius: 23px;
@@ -92,15 +92,20 @@
     background: rgba(105, 105, 105, 0.49);
     box-shadow: 0px 13px 29px 0px rgba(0, 0, 0, 0.13);
     backdrop-filter: blur(14.5px);
-    margin:0px 0px 0px 25px;
+    /* margin:0px 0px 0px 25px; */
 }
-
+.container{
+  display: flex;  
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
 @media screen and (min-width:1080px){
   .navbar{
     display: flex;
-    width:80%;
+    width:80vw;
     padding:20px 32px;
-    margin:0px 20px 0px 106px;
+    /* margin:0px 20px 0px 106px; */
     height:50px;
   }
   .header{

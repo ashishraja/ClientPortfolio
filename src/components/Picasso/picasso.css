@@ -1,5 +1,5 @@
 .picasso-page{
-    height:779vh;
+    /* height:779vh; */
     width:100%;
     background-color: black;
     padding-top:50px;
@@ -103,14 +103,17 @@ margin-top:-7px;
     padding:30px 30px;
 }
 .picasso-page .part5 p{
-    width:100%;
+    width:70vw;
     font-size:9px;
 }
 .picasso-page .part5 h1{
     letter-spacing:.66px;
 }
-.picasso-page .part5 div:last-child img{
-    margin-right:20px;
+.picasso-division div:first-child{
+    padding-top:20px;
+}
+.picasso-division{
+    margin-top:-20px;
 }
 .picasso-page .solution-part div:last-child{
     padding-left:10px;
@@ -121,7 +124,7 @@ margin-top:-7px;
 
 @media screen and (min-width:1080px){
     .picasso-page{
-        height:2600vh;
+        /* height:2600vh; */
         padding-top:200px;
     }
     .picasso-page .hero-section .part5{
@@ -175,6 +178,6 @@ margin-top:-7px;
     .picasso-page .part3 .img img{
         position: absolute;
         left:78%;
-        
+        top:38%;
     }
 }

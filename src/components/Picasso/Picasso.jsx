@@ -19,7 +19,7 @@ const Picasso = () => {
     <section className="picasso-page">
         <div className="hero-section">
             <div>
-                <div className="part3 part5">
+                <div className="part3 part5 picasso-division">
                     <div>
                         <h1>Picasso</h1>
                         <p> A project aimed at generating editable images using AI technology where User’s can create(prompt) images and has customizable options to edit the images.</p>

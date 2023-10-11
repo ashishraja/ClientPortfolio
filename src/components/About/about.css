@@ -1,7 +1,6 @@
 @media screen and (min-width:1080px){
     .about-page{
-        height:248vh;
-        width:100%;
+        width:98vw;
         background-color: black;
     }
     .about-page .about-header{
@@ -15,7 +14,7 @@
         margin-left:82px;
     }
      .about-page .main1{
-        display: flex;
+        display: flex; 
         width: 735px;
         height: 1100px;
         padding: 25px;
@@ -161,8 +160,7 @@
 }
 @media screen and (max-width:1080px){
     .about-page{
-        height:248vh;
-        width:100%;
+        width:100vw;
         background-color: black;
     }
     .about-page .about-header{
@@ -174,44 +172,11 @@
         border-radius: 23px;
         border:1px solid grey;
     }
-    
-    .about h3 span{
-        color: rgba(255, 255, 255, 0.50);
-    font-feature-settings: 'calt' off;
-    font-family: Poppins;
-    font-size: 23px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 170.5%;
-    letter-spacing: -0.23px;
-    }
-    
-    .about h2,h3{
-        color: var(--white, #FFF);
-    font-feature-settings: 'calt' off;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 170.5%; 
-    letter-spacing: -0.23px;
-    }
-    .about h1{
-        color: var(--white, #FFF);
-        font-feature-settings: 'calt' off;
-        font-family: akira-expanded , sans-serif;
-        font-size: 42px;
-        font-style: normal;
-        font-weight: 800;
-        line-height: 150%; /* 63px */
-        letter-spacing: 0.42px;
-    }
     .about h2{
         margin-top:-23px;
-        font-size: 28px;
     }
     .about h3{
         margin-top:-10px;
-        font-size: 21px;
     }
     .about-part1{
         display: flex;
@@ -288,29 +253,27 @@
     }
     .about-page{
         background-size: cover;
-        height:351vh;
+        /* height:351vh; */
     }
-    .about-page .main .about{
-        position: absolute;
-        left:63%;
-        width:66%;
-        height:50%;
+    .about-page .main1{
+        display:flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items:center;
     }
     .content-and-img img{
         background-size:cover;
-        max-width:100%;
-        height:300px;
-        width:200px;
-        margin-top:100px;
-        margin-left:105px;
+        max-width:100vw;
+        height:49vh;
+        width:46vw;
+        margin-top:23vw;
     }
     .about-page .main1 .about{
         display: flex;
-        width:73%;
+        width:73vw;
         margin-top:50px;
-        margin-left:30px;
-        height: 564px;
-        padding: 25px;
+        height: 62.52vh;
+        padding: 5.7vw;
         flex-direction: column;
         align-items: flex-start;
         gap: 13px;
@@ -322,7 +285,7 @@
         color: var(--white, #FFF);
         font-feature-settings: 'calt' off;
         font-family: akira-expanded , sans-serif;
-        font-size: 23px;
+        font-size: 5.3vw;
         font-style: normal;
         font-weight: 800;
         line-height: 150%; /* 63px */
@@ -332,27 +295,27 @@
         color: var(--gray2, #CDCDCD);
         font-feature-settings: 'calt' off;
         font-family: Poppins;
-        font-size: 15px;
+        font-size: 3.45vw;
         font-style: normal;
         font-weight: 500;
-        line-height: 150%; /* 45px */
+        line-height: 150%;
         letter-spacing: -0.3px;
     }   
     .about-page .main1 .about h3{
         color: var(--gray2, #CDCDCD);
         font-feature-settings: 'calt' off;
         font-family: Poppins;
-        font-size: 13px;
+        font-size: 3vw;
         font-style: normal;
         font-weight: 500;
-        line-height: 150%; /* 45px */
+        line-height: 150%;
         letter-spacing: -0.3px;
     }
     .about-page .main1 .about h3 span{
         color: rgba(255, 255, 255, 0.50);
         font-feature-settings: 'calt' off;
         font-family: Poppins;
-        font-size: 13px;
+        font-size: 3vw;
         font-style: normal;
         font-weight: 500;
         line-height: 170.5%;
@@ -360,16 +323,20 @@
     }
     .about-part1{
         margin-top:50px;
-        margin-left:-50px;
+        margin-left:-80px;
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
     }
     .about-part1 div{
         border-top:1px solid white;
     }
     .about-part1 h1{
-        font-size:15px;
+        font-size:3.45vw;
         font-family:akira-expanded , sans-serif;
         display:flex;
-        margin-top:-10px;
+        margin-top:10px;
     }
     .about-part1 h1 span:first-child{
         margin-right:10px;
@@ -385,7 +352,9 @@
      .about-part2{
         display: flex;
         flex-wrap: wrap;
-        margin-left:70px;
+        margin-left:-10px;
+        justify-content: center;
+        align-items: center;
      }
      .about-part2 a{
         margin:-50px 0px;
@@ -395,6 +364,6 @@
         margin-top:52px;
      }
      .about-part4 p{
-        font-size:12px;
+        font-size:2.76vw;
      }
 }

@@ -16,6 +16,7 @@ const Navbar = () => {
     window.addEventListener("scroll",changeColor);
 
   return (
+    <div className="container">
     <div className={color ? "navbar navbar-bg" : "navbar" }>
         
         <a style={{textDecoration:"none"}}href="/">
@@ -29,6 +30,7 @@ const Navbar = () => {
               About
            </Link1>
          </div>
+    </div>
     </div>
   );
 }
